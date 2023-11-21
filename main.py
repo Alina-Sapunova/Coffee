@@ -1,7 +1,7 @@
 import sqlite3
 import sys
-from PyQt5.QtWidgets import QMainWindow, QApplication, QTableWidgetItem, QCompleter, QFileDialog
-from d import Ui_Ui_MainWindow
+from PyQt5.QtWidgets import QMainWindow, QApplication
+from dis import Ui_Ui_MainWindow
 
 class MyWidget(QMainWindow, Ui_Ui_MainWindow):
     def __init__(self):
